@@ -20,10 +20,10 @@ function App() {
 
 
   return (
-    <div className="App container">
+    <div className="App container" >
 
       <div className="row">
-      <UserList listOfUSer={listOfUSer} isLoading={isLoading} />
+      <UserList listOfUSer={listOfUSer} isLoading={isLoading}/>
       </div>
 
     </div>
